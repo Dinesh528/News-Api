@@ -27,7 +27,7 @@ mongoose.connect(config.DB,{useNewUrlParser: true}).then(
     }
 );
 
-app.use('/news',newRoute);
+app.use('/',newRoute);
 
 app.listen(PORT, function(){
     console.log('Server is running on http://localhost:4000/news');
