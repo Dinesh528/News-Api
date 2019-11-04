@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const cors = require('cors');
 app.use(cors());
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 const mongoose =require('mongoose');
 mongoose.Promise = global.Promise;
@@ -39,5 +39,5 @@ if (process.env.NODE_ENV === 'production') {
   }
 
 app.listen(PORT, function(){
-    console.log('Server is running on http://localhost:4000');
+    console.log('Server is running on http://localhost:5000');
 });
