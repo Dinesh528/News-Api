@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node server.js",
-    "start": "cross-env NODE_ENV=production MONGO_URL=mongodb+srv://dinesh:dinesh123@cluster0-ez8ix.mongodb.net/REACT?retryWrites=true&w=majority/ node server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
