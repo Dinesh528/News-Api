@@ -2,10 +2,10 @@
   "name": "news",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env NODE_ENV=production MONGO_URL=mongodb+srv://dinesh:dinesh123@cluster0-ez8ix.mongodb.net/REACT?retryWrites=true&w=majority/ node server.js"
+    "start": "index.js"
   },
   "keywords": [],
   "author": "",
