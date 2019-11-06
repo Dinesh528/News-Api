@@ -16,7 +16,7 @@ let newsModel = new Schema(
             type:String
         },
         reptime: {
-            type:String,
+            type:Date,
             default: Date.now()
         }
     },
